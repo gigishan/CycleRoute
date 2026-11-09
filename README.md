@@ -18,6 +18,8 @@ The hosted HTTPS version is the easiest way to use it on a phone. Browser locati
 
 ## Behaviour
 
+- The selected Best or Fastest route is orange; the alternative is grey and dashed.
+- Ride weather appears next to elevation gain. Open-Meteo hourly forecasts are sampled along each route at estimated arrival times, assuming departure when routes finish calculating and constant progress by distance. It shows the most significant sampled condition, temperature range and maximum sampled precipitation probability, not a probability for the whole ride. The departure/arrival window is shown in the browser's local time. Recalculate routes to refresh the forecast. Unavailable weather never blocks route selection or GPX export.
 - The map requests current location on entry, falling back to a Singapore overview if unavailable. The start-field target button explicitly selects current location.
 - Photon autocomplete is debounced, location-biased, and its returned matching places are sorted by distance. Results depend on OpenStreetMap place names; try an official park/street/entrance name if an informal name is not found.
 - Stops can be added, removed, and moved up. Routes follow start → stops in displayed order → destination. Typed but unselected places must be resolved before routing.
