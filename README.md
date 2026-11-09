@@ -2,6 +2,10 @@
 
 Mobile-first cycling route planner inspired by the supplied mockups. Plain HTML, CSS and JavaScript with bundled Leaflet; no build step or API key needed for personal use.
 
+**[Open the live CycleRoute app](https://cycleroute-singapore.hazydotterel2.chatgpt.site/)**
+
+The app is privately hosted on Sites and may require sign-in.
+
 ## Run locally
 
 With Node.js installed, open this folder in a terminal and run `node server.mjs`, then open http://127.0.0.1:4173. Run checks with `node --test tests/*.test.mjs`.
