@@ -2,9 +2,15 @@
 
 Mobile-first cycling route planner inspired by the supplied mockups. Plain HTML, CSS and JavaScript with bundled Leaflet; no build step or API key needed for personal use.
 
-**[Open the live CycleRoute app](https://cycleroute-singapore.hazydotterel2.chatgpt.site/)**
+**[Open CycleRoute on GitHub Pages](https://gigishan.github.io/CycleRoute/)**
 
-The app is privately hosted on Sites and may require sign-in.
+GitHub Pages setup is pending: the current GitHub plan does not support Pages for this private repository. The link becomes available after Pages is enabled and the deployment succeeds.
+
+An alternate [private Sites version](https://cycleroute-singapore.hazydotterel2.chatgpt.site/) is also available and may require sign-in.
+
+## GitHub Pages deployment
+
+The GitHub Actions workflow in `.github/workflows/pages.yml` tests the app and publishes only `dist/` to GitHub Pages when app files change on `main`. It can also be started manually from the Actions tab. Set the repository's Pages publishing source to **GitHub Actions**. All app assets use relative URLs to support the `/CycleRoute/` project path.
 
 ## Run locally
 
