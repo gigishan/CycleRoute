@@ -4,8 +4,6 @@ Mobile-first cycling route planner inspired by the supplied mockups. Plain HTML,
 
 **[Open CycleRoute on GitHub Pages](https://gigishan.github.io/CycleRoute/)**
 
-GitHub Pages setup is pending: the current GitHub plan does not support Pages for this private repository. The link becomes available after Pages is enabled and the deployment succeeds.
-
 An alternate [private Sites version](https://cycleroute-singapore.hazydotterel2.chatgpt.site/) is also available and may require sign-in.
 
 ## GitHub Pages deployment
@@ -30,7 +28,7 @@ The hosted HTTPS version is the easiest way to use it on a phone. Browser locati
 
 ## Services and production considerations
 
-Map tiles: https://tile.openstreetmap.org (visible attribution, normal browser caching, no bulk/offline prefetch). Place search: https://photon.komoot.io. Routing: https://brouter.de. These community endpoints have no availability guarantee. For a public production launch, use appropriately provisioned or self-hosted providers and review their policies. This initial version is published privately with Sites.
+Map tiles: https://tile.openstreetmap.org (visible attribution, normal browser caching, no bulk/offline prefetch). Place search: https://photon.komoot.io. Routing: https://brouter.de. These community endpoints have no availability guarantee. For larger-scale use, use appropriately provisioned or self-hosted providers and review their policies. The app is publicly available on GitHub Pages, with an alternate private Sites deployment.
 
 References: [Photon API](https://github.com/komoot/photon/blob/master/docs/api-v1.md), [BRouter request parameters](https://github.com/abrensch/brouter/blob/master/brouter-server/src/main/java/btools/server/request/ServerHandler.java), [OSM tile policy](https://operations.osmfoundation.org/policies/tiles/). Leaflet's license is in `dist/vendor/LEAFLET-LICENSE.txt`.
 
